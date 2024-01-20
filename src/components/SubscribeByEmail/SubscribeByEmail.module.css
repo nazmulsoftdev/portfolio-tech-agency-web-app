@@ -1,0 +1,15 @@
+.bannerContainer {
+  background-image: linear-gradient(
+      to bottom,
+      rgb(255, 255, 255),
+      rgba(181, 236, 250, 0.73)
+    ),
+    url("../../assets/banner/subscribeImg.jpg");
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  opacity: 5;
+}

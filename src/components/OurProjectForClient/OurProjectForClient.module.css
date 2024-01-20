@@ -1,0 +1,22 @@
+/* ProjectCardStyle */
+.ProjectCardStyle {
+  cursor: pointer;
+}
+
+/* ViewIconSelect */
+
+.ViewIconSelect {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  visibility: hidden;
+  transition: all 1s;
+}
+
+/* ProjectCardStyle */
+.ProjectCardStyle:hover .ViewIconSelect {
+  visibility: visible;
+}
